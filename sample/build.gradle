@@ -20,6 +20,6 @@ android {
 }
 
 dependencies {
-    compile project(':library')
-    compile 'androidx.appcompat:appcompat:1.0.0'
+    implementation project(':library')
+    implementation "androidx.appcompat:appcompat:${rootProject.supportLibsVersion}"
 }
